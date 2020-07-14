@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>路由器信息</title>
+</head>
+<body>
+    <h1>
+        路由器信息列表
+    </h1>
+    <u1>
+        {%for router in Router%}
+        <li>
+            <a href="{{router.id}}">{{router.rname}}</a>
+        </li>
+        {%endfor%}
+    </u1>
+</body>
+</html>
